@@ -14,10 +14,11 @@ def O(k, j, v, w):
         return O(k, j - 1, v, w)
 
 
+
+v = np.array([16, 19, 23, 28])
+w = np.array([2, 3, 4, 5])
 K = 7
-N = 5
-v = np.array([16, 19, 23, 28, 55])
-w = np.array([2, 3, 4, 5, 6])
+N = v.size
 
 x = O(K, N, v, w)
 print(x)
