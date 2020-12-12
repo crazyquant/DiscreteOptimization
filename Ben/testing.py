@@ -4,13 +4,8 @@
 # a,b,c,d in {0, 1}
 import numpy as np
 
+w = np.array([2, 3, 4,])
+x = np.array([1, 2, 3])
 
-def O(w):
-    v = np.array(w)
-    v[0] = 19
-    print(v)
+print(w.dot(x))
 
-
-w = np.array([2, 3, 4, 5, 6])
-O(w)
-print(w)
